@@ -3,7 +3,11 @@ body {
 }
 div.header {
   height: 400px;
-  background-color: #dff5e5;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-image: url("https://github.com/AnPhuoc10x/Web-and-Mobile-Tech-HomepageProject/blob/main/image/Pacific%20Northwest%20X-ray%20Inc..png?raw=true");
+  background-position: center;
+  background-size: 100%;
 }
 div.bodyy {
   height: auto;
@@ -13,12 +17,6 @@ div.bodyy {
 div.footer {
   height: 400px;
   background-color: #b091ff;
-}
-div.PageTitle {
-	text-align: center;
-	font-size: 40px;
-	font-weight: Bold;
-	margin-top: 20px; margin-bottom: 20px;
 }
 /*Copy nav bar từ đây đến hết*/
 div.overlay {
@@ -144,4 +142,20 @@ p.ProductName {
 #showmore1:hover, #showmore2:hover, #showmore3:hover{
   background-color:#bee0ec;
   text-decoration: underline;
+}
+
+#bia{
+  position: relative;
+  left: 9.5%;
+  max-width:80%;
+}
+
+.introduction{
+  line-height:2.0;
+  margin-top: 30px;
+  font-family: helvetica, sans serif;
+  font-size: 30px;
+  margin-left: 9%;
+  margin-right: 9%;
+  text-align: center;
 }
